@@ -144,11 +144,9 @@ For dbt to connect to the most optimized SQL experience in Databricks, we need t
 ```sql
 select * from default.jaffle_shop_customers
 ```
-
 ```sql
 select * from default.jaffle_shop_orders
 ```
-
 ```sql
 select * from stripe.payments
 ```
