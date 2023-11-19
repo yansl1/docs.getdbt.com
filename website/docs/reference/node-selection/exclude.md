@@ -21,5 +21,5 @@ dbt test --exclude "orders"                     # test all models except tests a
 dbt seed --exclude "account_parent_mappings"    # load all seeds except account_parent_mappings
 
 # snapshot
-dbt snapshot --exclude "snap_order_statuses"    # execute all snapshots except snap_order_statuses
+dbt snapshot --exclude "snap_order_statuses"    # load all snapshots except snap_order_statuses
 ```
